@@ -1,12 +1,20 @@
-## Practical Lab 1
+# Practical Lab 1
 
-# Part 2. Create a Bash script using Vim
+## Part 2. Create a Bash script using Vim
 
-# Available script methods:
+
+## Available script methods:
+
 - add (Adds a new username and role to the database).
 - backup (Creates a backup for the database).
 - restore (Restores a database from a backup file).
 - find (Finds a specific user in database).
 - list (Prints a list of users from database).
+- help (Shows list of all methods).
 
-# Usage: ./db.sh <method>
+## Usage: 
+
+```
+cd scripts
+./db.sh method-name
+```
